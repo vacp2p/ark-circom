@@ -26,7 +26,7 @@ hex = "0.4.3"
 byteorder = "1.4.3"
 
 # ethereum compat
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+ethers-core = { git = "https://github.com/gakonst/ethers-rs", default-features = false, rev="74bf6fb" }
 
 # error handling
 thiserror = "1.0.26"
