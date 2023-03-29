@@ -52,5 +52,6 @@ harness = false
 default = ["parallel", "wasmer/default"]
 parallel = ["ark-ec/parallel", "ark-ff/parallel", "ark-std/parallel",  "ark-groth16/parallel", "ark-poly/parallel"]
 wasm = ["wasmer/js-default"]
+wasm-parallel = ["parallel", "wasm"]
 bench-complex-all = []
 circom-2 = []
